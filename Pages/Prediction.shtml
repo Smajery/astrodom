@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../Styles/Style/style.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/Prediction_css/Prediction.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Play&display=swap" rel="stylesheet">
+    <title>Пророцтво</title>
+</head>
+<body>
+<div class="wrapper">
+    <!--#include virtual="../Include/header.txt"-->
+    <section class="main">
+
+        <div class="prediction_roulette-container">
+            <h1>Печиво із пророцтвом</h1>
+            <h2>Усі люблять розкривати печиво з гаданням наприкінці трапези... Тепер ви можете відкривати скільки завгодно!</h2>
+            <h3>Потягни за важіль і перевір!</h3>
+            <div class="btn-spin-wheel">
+                <div class="lever">
+                    <div class="knob"></div>
+                    <div class="stick"></div>
+                </div>
+                <div class="lever-base">
+                    <div class="pivot"></div>
+                    <div class="base"></div>
+                </div>
+            </div>
+            <div class="prediction_roulette-wrapper">
+                <div class="arrow_up"></div>
+                <div class='wheel'></div>
+            </div>
+            <div class="row">
+                <span class="quote"></span>
+            </div>
+        </div>
+    </section>
+    <!--#include virtual="../Include/background.txt"-->
+    <!--#include virtual="../Include/scroll_to_top.txt"-->
+    <!--#include virtual="../Include/footer.txt"-->
+</div>
+<!--#include virtual="../Include/js.txt"-->
+<script src="../Js/Prediction.js"></script>
+<script src="../JQuery/prediction(jq).js"></script>
+</body>
+</html>

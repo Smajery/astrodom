@@ -1,0 +1,112 @@
+.prediction_roulette-container{
+    position: relative;
+    margin: 60px auto 60px auto;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.prediction_roulette-container h1{
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
+}
+.prediction_roulette-container h2{
+    margin-top: 10px;
+    color: #ababab;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.prediction_roulette-container h3{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.prediction_roulette-wrapper{
+    display:flex;
+    justify-content:center;
+    width: 128px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.arrow_up {
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 30px solid #B3B3B3;
+}
+.wheel{
+    display:flex;
+}
+.wheel .row{
+    display:flex;
+}
+.fortune-cookie{
+    height:128px;
+    width:128px;
+    margin:3px;
+    background-image: url("../../Img/fortune-cookie.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    cursor: auto;
+    outline: none;
+}
+.prediction_roulette-container > .row{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    height: 40px;
+}
+.btn-spin-wheel {
+    margin-top: 20px;
+    position: relative;
+    width: 54px;
+    padding-top: 42px;
+    cursor: pointer;
+    display: flex;
+    z-index: 2;
+}
+.lever {
+    position: absolute;
+    width: 10px;
+    left: 22px;
+    top: 0;
+    transform: rotate(-30deg);
+    transform-origin: 50% 100%;
+    transition: all 1s ease;
+}
+.knob {
+    background-color:#F9C5B4;
+    width: 10px;
+    height: 18px;
+}
+.stick {
+    width: 5px;
+    height: 32px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.lever-base {
+    position: relative;
+    width: 54px;
+}
+
+.pivot {
+    width: 24px;
+    height: 12px;
+    border-radius: 50px 50px 0 0;
+    background-color: #D0D2D3;
+    margin: 0 auto;
+}
+
+.base {
+    width: 54px;
+    height: 3px;
+    background-color: #B3B3B3;
+}

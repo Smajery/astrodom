@@ -1,0 +1,21 @@
+.scrollToTopBtn {
+    border: none;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+}
+
+.showBtn {
+    opacity: 0.6;
+    transform: translateY(0);
+}
+.showBtn:hover{
+    opacity: 1;
+}

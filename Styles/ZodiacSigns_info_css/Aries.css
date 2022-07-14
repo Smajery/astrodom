@@ -1,0 +1,108 @@
+.zodiac_inf-container{
+    margin: 60px auto;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zodiac_inf-wrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zodiac_inf-wrapper h1{
+    margin-top: 40px;
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+.traits{
+    width: 90%;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(245, 245, 245, 0.5);
+    background-color: #010c1f;
+    border-radius: 10px;
+}
+.overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.overview p{
+    margin-bottom: 10px;
+}
+.overview p:last-child{
+    margin-bottom: 0;
+}
+.overview p span{
+    text-transform: uppercase;
+    color: #888888;
+}
+.text-about-zz{
+    margin-top: 50px;
+    color: #ababab;
+    font-size: 18px;
+}
+.first-word{
+    color: #F9C5B4;
+}
+.text-character{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.text-character-name{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: auto;
+    font-size: 23px;
+    color: #F9C5B4;
+}
+.text-about-zz.character{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.icon-zz{
+    margin-top: 40px;
+    width: 126px;
+    height: 126px;
+}
+.signs{
+    margin-top: 40px;
+}
+.plant{
+    color: rgb(140, 169, 70);
+}
+.aries_inf-wrapper a{
+    text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+    .zodiac_inf-container{
+        width: 100%;
+        background-color: #010c1f;
+        margin: 0;
+    }
+    .traits {
+        flex-wrap: wrap;
+    }
+    .overview{
+        margin-bottom: 10px;
+    }
+    .overview:last-child{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 575px) {
+    .zodiac_inf-wrapper{
+        padding: 20px;
+    }
+}
+

@@ -1,0 +1,207 @@
+.zodiac-calc-container{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 100px auto;
+}
+.zodiac-calc-wrapper{
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-image: url("../../Img/BackGround.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+.zodiac-calc-wrapper .top-content{
+    padding: 15px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-over-input-area{
+    font-size: 20px;
+}
+.input-area{
+    margin: 20px 0;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.input-data{
+    margin-top: 20px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-input-data{
+    display: none;
+}
+.input-data option{
+    background: #010c1f;
+    color: #C7C7C7;
+    text-align: left;
+}
+.input-data select{
+    display: block;
+    padding: 2px 10px;
+    margin: 0;
+    color: #C7C7C7;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.input-data select:hover {
+    cursor: pointer;
+}
+.zodiac-calc-wrapper .bottom-content{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.output{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.output .content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.output p{
+    font-size: 16px;
+    color: #F9C5B4;
+}
+.output .text-content p{
+    margin-top: 10px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #969696;
+}
+.result,.result2,.result3{
+    margin-top: 10px;
+    width: 150px;
+    height: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: none;
+    text-align: center;
+}
+.form-count-zz{
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-count-zz a{
+    position: absolute;
+    top: 45px;
+    color: #969696;
+    font-size: 11px;
+    z-index: 0;
+}
+.btn-count-zz{
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: #969696;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+.btn-count-zz:hover{
+    cursor: pointer;
+    color: #F9C5B4;
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 1199px){
+
+}
+@media screen and (max-width: 991px){
+
+}
+@media screen and (max-width: 767px){
+    .zodiac-calc{
+        margin-top: 40px;
+    }
+    .input-area{
+        margin-top: 10px;
+    }
+    .output-area{
+        margin: 0 auto;
+        width: 380px;
+    }
+    .input-data{
+        width: 300px;
+        height: 100px;
+        margin-top: 20px;
+        align-content: space-between;
+    }
+    .text-over-input-area{
+        width: 300px;
+    }
+    .text-input-data{
+        font-size: 16px;
+        margin-left: 20px;
+        width: 100px;
+        display: block;
+        color: #969696;
+    }
+    .month{
+        width: 130px;
+    }
+    .output{
+        width: auto;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .output .content{
+        margin: 0 10px;
+        width: 150px;
+        flex-direction: column;
+    }
+    .bottom-content{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 575px){
+    .input-area{
+        width: 100%;
+    }
+    .output-area{
+        width: 100%;
+    }
+    .output .content:first-child{
+        width: 100px;
+    }
+    .result,.result2,.result3{
+        margin-top: 10px;
+        width: 100px;
+        height: 24px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        background: none;
+        text-align: center;
+    }
+}

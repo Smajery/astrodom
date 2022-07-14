@@ -1,0 +1,37 @@
+<header id="header" class="header">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="head">
+                    <a class="logo" title="logo">Astrodom</a>
+                    <button class="menu_open">
+                        <img class="menu_open_img" src="../Img/menu.png" alt="Open menu">
+                    </button>
+                </div>
+                <ul class="menu">
+                    <li><a href="/index.html">Головна</a></li>
+                    <li class="decoration"></li>
+                    <li><a href="Prediction.shtml">Пророцтво</a></li>
+                    <li class="decoration"></li>
+                    <li class="hide-menu-off"><a href="ZodiacSigns.shtml">Знаки зодіаку</a>
+                        <button class="btn-drop-down first">
+                           <img class="arrow-down" src="/Img/down-arrow.png" alt="">
+                           <img class="arrow-up" src="/Img/up-arrow.png" alt="">
+                        </button>
+                        <ul class="hide-menu">
+                            <li><a href="CountZodiacSigns.shtml">Розрахунок</a></li>
+                        </ul>
+                    </li>
+                    <li class="decoration"></li>
+                    <li class="hide-menu-off"><a href="About.shtml">Про все</a>
+                        <button class="btn-drop-down second">
+                           <img class="arrow-down" src="/Img/down-arrow.png" alt="">
+                           <img class="arrow-up" src="/Img/up-arrow.png" alt="">
+                        </button>
+                        <ul class="hide-menu">
+                            <li><a href="About.shtml#planet-inf">Планети</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>

@@ -1,0 +1,66 @@
+.planets_information-container{
+    margin: 60px auto;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.planets_information-container h1{
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
+}
+.planets_information-container h2{
+    width: 100%;
+    max-width: 850px;
+    margin-top: 10px;
+    color: #ababab;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.planets_information-wrapper{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name-planet-text{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.meaning-planet-text{
+    color: #737373;
+    font-size: 21px;
+    margin-top: 20px;
+    letter-spacing: 0.1em;
+}
+.about-planet-text{
+    margin-top: 40px;
+    color: #ababab;
+    font-size: 18px;
+}
+.about-planet-text span{
+    color: #F9C5B4;
+}
+.planet_information-content{
+    padding: 40px;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #010c1f;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 767px) {
+    .planets_information-container{
+        width: 100%;
+    }
+}

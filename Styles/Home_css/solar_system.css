@@ -1,0 +1,356 @@
+.solar_system-container{
+    margin: 0 auto;
+    width: 1170px;
+}
+.solar_system-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.solar_system-wrapper button{
+    padding: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 10;
+}
+.solar_system-wrapper button:hover{
+    cursor: pointer;
+}
+.solar_system-wrapper  div{
+    border-radius: 50%;
+    border: 5px solid rgba(217, 217, 217, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_ring{
+    width: 900px;
+    height: 920px;
+    transform: rotateX(60grad);
+}
+.second_ring {
+    width: 700px;
+    height: 720px;
+    border-radius: 50%;
+    border: 5px solid rgba(217, 217, 217, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third_ring{
+    width: 500px;
+    height: 520px;
+    border-radius: 50%;
+    border: 5px solid rgba(217, 217, 217, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forth_ring{
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    border: 5px solid rgba(217, 217, 217, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Neptune_ss{
+    height: 70px;
+   bottom: 300px;
+    right: 155px;
+}
+.Uranus_ss{
+    height: 70px;
+    top: 300px;
+    left: 145px;
+}
+.Saturn_ss{
+    height: 80px;
+    top: 275px;
+    right: 300px;
+}
+.Jupiter_ss{
+    height: 90px;
+    bottom: 265px;
+    left: 300px;
+}
+.Mars_ss{
+    height: 60px;
+    top: 315px;
+    left: 400px;
+}
+.Earth_ss{
+    height: 60px;
+    bottom: 315px;
+    right: 400px;
+}
+.Venus_ss{
+    height: 70px;
+    top: 380px;
+    right: 425px;
+}
+.Mercury_ss{
+    height: 50px;
+    bottom: 395px;
+    left: 425px;
+}
+.Sun_ss{
+    height: 110px;
+}
+.img_planet_ss{
+    width: 100%;
+    height: 100%;
+}
+@keyframes rotate_planet{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 1200px){
+    .solar_system-container{
+        width: 1140px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .solar_system-container{
+        width: 960px;
+    }
+    .Neptune_ss{
+        bottom: 300px;
+        right: 45px;
+    }
+    .Uranus_ss{
+        top: 300px;;
+        left: 40px;
+    }
+    .Saturn_ss{
+        top: 270px;
+        right: 200px;
+    }
+    .Jupiter_ss{
+        bottom: 260px;
+        left: 200px;
+    }
+    .Mars_ss{
+        top: 310px;
+        left: 300px;
+    }
+    .Earth_ss{
+        bottom: 310px;
+        right: 300px;
+    }
+    .Venus_ss{
+        top: 380px;
+        right: 320px;
+    }
+    .Mercury_ss{
+        bottom: 395px;
+        left: 315px;
+    }
+}
+@media screen and (max-width: 991px){
+    .solar_system-container{
+        width: 720px;
+    }
+    .first_ring{
+        width: 660px;
+        height: 680px;
+    }
+    .second_ring {
+        width: 500px;
+        height:  520px;
+    }
+    .third_ring{
+        width: 340px;
+        height: 360px;
+    }
+    .forth_ring{
+        width: 180px;
+        height: 200px;
+    }
+    .Neptune_ss{
+        height: 65px;
+        bottom: 250px;
+        right: 10px;
+    }
+    .Uranus_ss{
+        height: 65px;
+        top: 250px;
+        left: 10px;
+    }
+    .Saturn_ss{
+        height: 70px;
+        top: 210px;
+        right: 130px;
+    }
+    .Jupiter_ss{
+        height: 70px;
+        bottom: 210px;
+        left: 130px;
+    }
+    .Mars_ss{
+        height: 50px;
+        top: 250px;
+        left: 200px;
+    }
+    .Earth_ss{
+        height: 50px;
+        bottom: 250px;
+        right: 200px;
+    }
+    .Venus_ss{
+        height: 50px;
+        top: 285px;
+        right: 255px;
+    }
+    .Mercury_ss{
+        height: 40px;
+        bottom: 295px;
+        left: 255px;
+    }
+    .Sun_ss{
+        height: 90px;
+    }
+}
+@media screen and (max-width: 767px){
+    .solar_system-container{
+        width: 528px;
+    }
+    .solar_system-wrapper  div{
+        border: 4px solid rgba(217, 217, 217, 0.2);
+    }
+    .first_ring{
+        width: 452px;
+        height: 462px;
+    }
+    .second_ring {
+        width: 342px;
+        height: 352px;
+    }
+    .third_ring{
+        width: 242px;
+        height: 252px;
+    }
+    .forth_ring{
+        width: 142px;
+        height: 152px;
+    }
+    .Neptune_ss{
+        height: 45px;
+        bottom: 165px;
+        right: 30px;
+    }
+    .Uranus_ss{
+        height: 45px;
+        top: 165px;
+        left: 30px;
+    }
+    .Saturn_ss{
+        height: 55px;
+        top: 150px;
+        right: 90px;
+    }
+    .Jupiter_ss{
+        height: 55px;
+        bottom: 150px;
+        left: 90px;
+    }
+    .Mars_ss{
+        height: 35px;
+        top: 165px;
+        left: 160px;
+    }
+    .Earth_ss{
+        height: 35px;
+        bottom: 165px;
+        right: 160px;
+    }
+    .Venus_ss{
+        height: 35px;
+        top: 195px;
+        right: 180px;
+    }
+    .Mercury_ss{
+        height: 30px;
+        bottom: 200px;
+        left: 180px;
+    }
+    .Sun_ss{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 575px){
+    .solar_system-container{
+        width: 320px;
+    }
+    .solar_system-wrapper div{
+        border: 3px solid rgba(217, 217, 217, 0.2);
+    }
+    .first_ring{
+        width: 290px;
+        height: 310px;
+    }
+    .second_ring {
+        width: 230px;
+        height: 240px;
+    }
+    .third_ring{
+        width: 160px;
+        height: 170px;
+    }
+    .forth_ring{
+        width: 90px;
+        height: 100px;
+    }
+    .Neptune_ss{
+        height: 35px;
+        bottom: 110px;
+        right: 5px;
+    }
+    .Uranus_ss{
+        height: 35px;
+        top: 110px;
+        left: 5px;
+    }
+    .Saturn_ss{
+        height: 45px;
+        top: 95px;
+        right: 45px;
+    }
+    .Jupiter_ss{
+        height: 40px;
+        bottom: 98px;
+        left: 45px;
+    }
+    .Mars_ss{
+        height: 25px;
+        top: 115px;
+        left: 80px;
+    }
+    .Earth_ss{
+        height: 25px;
+        bottom: 115px;
+        right: 80px;
+    }
+    .Venus_ss{
+        height: 25px;
+        top: 130px;
+        right: 110px;
+    }
+    .Mercury_ss{
+        height: 20px;
+        bottom: 135px;
+        left: 107px;
+    }
+    .Sun_ss{
+        height: 50px;
+    }
+}

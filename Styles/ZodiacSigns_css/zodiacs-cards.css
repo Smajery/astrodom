@@ -1,0 +1,71 @@
+.zodiacs-cards_container{
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.zodiacs-cards_wrapper{
+    margin: 0 auto;
+    width: 1068px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.btn-zz{
+    margin-bottom: 15px;
+    position: relative;
+    width: 157px;
+    height: 224px;
+    border: 1px solid rgba(110, 110, 110, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: none;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+.btn-zz:hover{
+    background-color: rgba(1, 12, 31, 0.5);
+    border: 1px solid rgb(110, 110, 110, 0.1);
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+.btn-zz:hover .img-zz{
+    width: 100%;
+    height: 100%;
+}
+.btn-zz a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: rgba(255, 255, 255, 0.62);
+    margin-bottom: 4px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+.btn-zz:hover a{
+    color: #C7C7C7;
+}
+.img-zz{
+    width: 90%;
+    height: 90%;
+    transition: all 0.5s ease;
+}
+@media screen and (max-width: 1200px){
+}
+@media screen and (max-width: 1199px){
+}
+@media screen and (max-width: 991px){
+    .zodiacs-cards_wrapper{
+        width: 533px;
+    }
+}
+@media screen and (max-width: 767px){
+}
+@media screen and (max-width: 575px){
+    .zodiacs-cards_wrapper{
+        width: 158px;
+    }
+}
+

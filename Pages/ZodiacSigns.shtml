@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../Styles/Style/style.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/ZodiacSigns_css/ZodiacSigns.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Play&display=swap" rel="stylesheet">
+    <title>Знаки зодіаку</title>
+</head>
+<body>
+<div class="wrapper">
+    <!--#include virtual="../Include/header.txt"-->
+    <section class="main">
+        <div class="zodiacs-cards_container">
+            <div class="zodiacs-cards_wrapper">
+                <button class="btn-zz Aries" onclick="window.location.href = 'Aries.shtml';"><img class="img-zz" src="../Img/Aries-btn.png" alt="Овен"><a>Овен</a></button>
+                <button class="btn-zz Taurus" onclick="window.location.href = 'Taurus.shtml';"><img class="img-zz" src="../Img/Taurus-btn.png" alt="Телець"><a>Телець</a></button>
+                <button class="btn-zz Gemini" onclick="window.location.href = 'Gemini.shtml';"><img class="img-zz" src="../Img/Gemini-btn.png" alt="Близнюки"><a>Близнюки</a></button>
+                <button class="btn-zz Cancer" onclick="window.location.href = 'Cancer.shtml';"><img class="img-zz" src="../Img/Cancer-btn.png" alt="Рак"><a>Рак</a></button>
+                <button class="btn-zz Leo" onclick="window.location.href = 'Leo.shtml';"><img class="img-zz" src="../Img/Leo-btn.png" alt="Лев"><a>Лев</a></button>
+                <button class="btn-zz Virgo" onclick="window.location.href = 'Virgo.shtml';"><img class="img-zz" src="../Img/Virgo-btn.png" alt="Діва"><a>Діва</a></button>
+                <button class="btn-zz Libra" onclick="window.location.href = 'Libra.shtml';"><img class="img-zz" src="../Img/Libra-btn.png" alt="Терези"><a>Терези</a></button>
+                <button class="btn-zz Scorpio" onclick="window.location.href = 'Scorpio.shtml';"><img class="img-zz" src="../Img/Scorpio-btn.png" alt="Скорпіон"><a>Скорпіон</a></button>
+                <button class="btn-zz Sagittarius" onclick="window.location.href = 'Saggitarius.shtml';"><img class="img-zz" src="../Img/Saggitarius-btn.png" alt="Стрілець"><a>Стрілець</a></button>
+                <button class="btn-zz Capricorn" onclick="window.location.href = 'Capricorn.shtml';"><img class="img-zz" src="../Img/Capricorn-btn.png" alt="Козоріг"><a>Козоріг</a></button>
+                <button class="btn-zz Aquarius" onclick="window.location.href = 'Aquarius.shtml';"><img class="img-zz" src="../Img/aquarius-btn.png" alt="Водолій"><a>Водолій</a></button>
+                <button class="btn-zz Pisces" onclick="window.location.href = 'Pisces.shtml';"><img class="img-zz" src="../Img/Pisces-btn.png" alt="Риби"><a>Риби</a></button>
+            </div>
+        </div>
+    </section>
+    <!--#include virtual="../Include/background.txt"-->
+    <!--#include virtual="../Include/scroll_to_top.txt"-->
+    <!--#include virtual="../Include/footer.txt"-->
+</div>
+<!--#include virtual="../Include/js.txt"-->
+<script src="../Js/ZodiacSigns.js"></script>
+</body>
+</html>

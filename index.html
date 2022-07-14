@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="Styles/Style/style.css">
+    <link rel="stylesheet" type="text/css" href="Styles/Home_css/Home.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Play&display=swap" rel="stylesheet">
+    <title>Головна</title>
+</head>
+<body>
+<div class="wrapper">
+    <header id="header" class="header">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="head">
+                    <a class="logo" title="logo">Astrodom</a>
+                    <button class="menu_open">
+                        <img class="menu_open_img" src="Img/menu.png" alt="Open menu">
+                    </button>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.shtml">Головна</a></li>
+                    <li class="decoration"></li>
+                    <li><a href="Pages/Prediction.shtml">Пророцтво</a></li>
+                    <li class="decoration"></li>
+                    <li class="hide-menu-off"><a href="Pages/ZodiacSigns.shtml">Знаки зодіаку</a>
+                        <button class="btn-drop-down first">
+                            <img class="arrow-down" src="Img/down-arrow.png" alt="">
+                            <img class="arrow-up" src="Img/up-arrow.png" alt="">
+                        </button>
+                        <ul class="hide-menu">
+                            <li><a href="Pages/CountZodiacSigns.shtml">Розрахунок</a></li>
+                        </ul>
+                    </li>
+                    <li class="decoration"></li>
+                    <li class="hide-menu-off"><a href="Pages/About.shtml">Про все</a>
+                        <button class="btn-drop-down second">
+                            <img class="arrow-down" src="Img/down-arrow.png" alt="">
+                            <img class="arrow-up" src="Img/up-arrow.png" alt="">
+                        </button>
+                        <ul class="hide-menu">
+                            <li><a href="Pages/About.shtml#planet-inf">Планети</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="swiper hello_box-container">
+            <div class="swiper-wrapper hello_box-wrapper">
+                <div class="swiper-slide">
+                    <div class="hello_text_box" data-swiper-parallax-opacity="0.5" style="background-image: url('Img/hello_text_first.png')">
+                        <p class="text_top" data-swiper-parallax-opacity="0">Дізнайтесь більше разом з нами!</p><br>
+                        <p class="text_middle" data-swiper-parallax-opacity="0">Пориньте у вивчення астрології і відкрийте для себе дивовижний світ повний чарівництва</p><br>
+                        <p class="text_bottom" data-swiper-parallax-opacity="0">Наш онлайн-журнал допоможе вам знайти правильний підхід до вирішення всіх повсякденних проблем та досягнення щастя у вашому житті.</p>
+                        <button class="nav_button_bottom" data-swiper-parallax-opacity="0" onclick="window.location.href = 'Pages/About.shtml';">Читати</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                   <div class="hello_text_box" data-swiper-parallax-opacity="0.5"  style="background-image: url('Img/img_left.jpg')">
+                       <p class="text_top" data-swiper-parallax-opacity="0">Ласкаво просимо!</p>
+                       <p class="text_middle" data-swiper-parallax-opacity="0">Astrodom визнаний одним із найкращих астрологічних онлайн-журналів в Україні. Щодня ми додаємо на наш сайт свіжі статті професійних астрологів, оновлені матеріали для всіх знаків зодіаку, а також натальних карт та стежимо за вашими відгуками, які допомагають нам у підтримці якості нашого сайту.</p>
+                       <p class="text_bottom" data-swiper-parallax-opacity="0">Наш онлайн-журнал допоможе вам знайти правильний підхід до вирішення всіх повсякденних проблем та досягнення щастя у вашому житті.</p>
+                   </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hello_text_box" data-swiper-parallax-opacity="0.5"  style="background-image: url('Img/img_right.jpg')">
+                        <p class="text_top" data-swiper-parallax-opacity="0">Печиво із пророцтвом</p><br>
+                        <p class="text_middle" data-swiper-parallax-opacity="0">Усі люблять розкривати печиво з гаданням наприкінці трапези... Тепер ви можете відкривати скільки завгодно!</p><br>
+                        <p class="text_bottom" data-swiper-parallax-opacity="0">Випробуй нашу новинку!</p>
+                        <button class="nav_button_bottom" data-swiper-parallax-opacity="0" onclick="window.location.href = 'Pages/Prediction.shtml';">Спробувати</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="solar_system-container">
+            <div class="solar_system-wrapper">
+                <button id="Neptune" class="Neptune_ss" onclick="window.location.href = 'Pages/About.shtml#Neptune-inf';" style="animation: rotate_planet 25s infinite normal linear;"><img class="img_planet_ss" src="Img/neptune_kawai.png" alt=""></button>
+                <button id="Uranus" class="Uranus_ss" onclick="window.location.href = 'Pages/About.shtml#Uranus-inf';"  style="animation: rotate_planet 25s infinite normal linear;"><img class="img_planet_ss" src="Img/uranus_kawai.png" alt=""></button>
+                <button id="Saturn" class="Saturn_ss" onclick="window.location.href = 'Pages/About.shtml#Saturn-inf';"  style="animation: rotate_planet 15s infinite normal linear;"><img class="img_planet_ss" src="Img/saturn_kawai.png" alt=""></button>
+                <button id="Jupiter" class="Jupiter_ss" onclick="window.location.href = 'Pages/About.shtml#Jupiter-inf';" style="animation: rotate_planet 10s infinite normal linear;"><img class="img_planet_ss" src="Img/jupiter_kawai.png" alt=""></button>
+                <button id="Mars" class="Mars_ss" onclick="window.location.href = 'Pages/About.shtml#Mars-inf';"  style="animation: rotate_planet 30s infinite normal linear;"><img class="img_planet_ss" src="Img/mars_kawai.png" alt=""></button>
+                <button id="Earth" class="Earth_ss" onclick="window.location.href = 'Pages/About.shtml#Moon-inf';"  style="animation: rotate_planet 30s infinite normal linear;"><img class="img_planet_ss" src="Img/earth.png" alt=""></button>
+                <button id="Venus" class="Venus_ss" onclick="window.location.href = 'Pages/About.shtml#Venus-inf';"  style="animation: rotate_planet 100s infinite normal linear;"><img class="img_planet_ss" src="Img/venus_kawai.png" alt=""></button>
+                <button id="Mercury" class="Mercury_ss" onclick="window.location.href = 'Pages/About.shtml#Mercury-inf';"  style="animation: rotate_planet 40s infinite normal linear;"><img class="img_planet_ss" src="Img/mercury_kawai.png" alt=""></button>
+                <button id="Sun" class="Sun_ss" onclick="window.location.href = 'Pages/About.shtml#Sun-inf';"><img class="img_planet_ss" src="Img/sun.png" alt=""></button>
+                <div class="first_ring">
+                    <div class="second_ring">
+                        <div class="third_ring">
+                            <div  class="forth_ring">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news_box-container">
+            <div class="news_box_content">
+                <div class="news_box_img news_box_img_left"></div>
+                <div class="news_text_box">
+                    <img class="news_box-icon" src="Img/heart.png" alt="">
+                    <p class="text_top">Любов & Астрологія</p>
+                    <p class="text_bottom">Астрологія не тільки пишається своєю здатністю бачити, який любовний потенціал у вас є у вашому гороскопі, але і правильний любовний гороскоп вкаже напрямок...</p>
+                </div>
+                <div class="news_box_img news_box_img_right"></div>
+            </div>
+            <div class="news_box_content">
+                <div class="news_text_box news_text_box_left">
+                    <img class="news_box-icon" src="Img/direction.png" alt="">
+                    <p class="text_top">Самопізнання</p>
+                    <p class="text_bottom">Вивчення астрології допомагає проаналізувати себе: виявити не тільки сильні сторони, які допоможуть досягти успіху та гармонії в житті, але також і слабкі, завдяки чому ви зможете пом'якшити їхній вплив у вашому житті.</p>
+                </div>
+                <div class="news_box_img news_box_img_center"></div>
+                <div class="news_text_box news_text_box_bottom news_text_box_right">
+                    <img class="news_box-icon" src="Img/moon.png" alt="">
+                    <p class="text_top">Як астрологія може допомогти вам</p>
+                    <p class="text_bottom">Астрологічні показання враховують вирівнювання всіх зірок. Астрологи читають діаграми, які схожі на поляроїд галактики в дуже конкретний момент часу. Усі небесні тіла...</p>
+                </div>
+            </div>
+        </div>
+        <div class="news_planets">
+            <div class="planets_box planets_box_reverse">
+                <div class="planets_text_box">
+                    <p class="text_top">Любовна сумісність</p>
+                    <p class="text_bottom">Перевірте потенціал кохання між вами та вашим партнером (або потенційний любовний інтерес) на основі дати народження.</p>
+                </div>
+                <div class="img_planet" style="background-image: url('Img/venus.png')"></div>
+            </div>
+            <div class="planets_box">
+                <div class="img_planet"  style="background-image: url('Img/uranus.png')"></div>
+                <div class="planets_text_box">
+                    <p class="text_top">Мій знак зодіаку</p>
+                    <p class="text_bottom">Дізнайтесь за датою свого народження ваш персональний знак зодіаку</p>
+                </div>
+            </div>
+            <div class="planets_box planets_box_reverse">
+                <div class="planets_text_box">
+                    <p class="text_top">Астрологія для чоловіків та жінок</p>
+                    <p class="text_bottom">Перевірте потенціал кохання між вами та вашим партнером (або потенційний любовний інтерес) на основі дати народження.</p>
+                </div>
+                <div class="img_planet"  style="background-image: url('Img/mars.png')"></div>
+            </div>
+            <div class="planets_box">
+                <div class="img_planet"  style="background-image: url('Img/moon-phases.png')"></div>
+                <div class="planets_text_box">
+                    <p class="text_top">Дома</p>
+                    <p class="text_bottom">Дізнайся більше про основні частини астрології і розберіться в тому, що вас цікавить.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="star-field">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+    </div>
+    <button class="scrollToTopBtn"><img src="Img/up-arrow.png" alt=""></button>
+    <footer id="footer" class="footer">
+        <div class="container_footer">
+            <div class="communication_content_top">
+                <div class="communication">
+                    <div class="com-icon"><img class="address" src="Img/address.png" alt="address"></div>
+                    <div class="com-text">
+                        <p class="name-text">Адреса:</p>
+                        <a class="inform-text" href="#">Санаторний пр. буд. 5/2</a>
+                    </div>
+                </div>
+                <div class="communication">
+                    <div class="com-icon"><img class="phone" src="Img/phone.png" alt="address"></div>
+                    <div class="com-text">
+                        <p class="name-text">Телефони:</p>
+                        <a class="inform-text" href="tel:+380974936964">+380 97 493 69 64</a>
+                    </div>
+                </div>
+                <div class="communication">
+                    <div class="com-icon"><img class="mail" src="Img/mail.png" alt="address"></div>
+                    <div class="com-text">
+                        <p class="name-text">Зв'язок з нами:</p>
+                        <a class="inform-text" href="#">astrodom@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="communication_content_middle">
+                <p class="sub-text">Введіть свій e-mail <br> та залиши нам свій відгук</p>
+                <form class="subscribe" action="mailto:astrodom.official.ua@gmail.com" method="post" enctype="text/plain" type="subscribe">
+                    <input id="mail-input" class="mail-input" type="text" placeholder="Email address" name="mail" required>
+                    <input id="btn-sub" class="btn-sub" type="submit" value="Залишити">
+                </form>
+            </div>
+            <div class="communication_content_bottom">
+                <p>Astrodom</p>
+                <p>© 2022. Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<!--#include virtual="../Include/js.txt"-->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="Js/HomePage.js"></script>
+</body>
+</html>

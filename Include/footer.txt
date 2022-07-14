@@ -1,0 +1,38 @@
+ <footer id="footer" class="footer">
+         <div class="container_footer">
+             <div class="communication_content_top">
+                 <div class="communication">
+                     <div class="com-icon"><img class="address" src="/Img/address.png" alt="address"></div>
+                     <div class="com-text">
+                         <p class="name-text">Адреса:</p>
+                         <a class="inform-text" href="#">Санаторний пр. буд. 5/2</a>
+                     </div>
+                 </div>
+                 <div class="communication">
+                     <div class="com-icon"><img class="phone" src="/Img/phone.png" alt="address"></div>
+                     <div class="com-text">
+                         <p class="name-text">Телефони:</p>
+                         <a class="inform-text" href="tel:+380974936964">+380 97 493 69 64</a>
+                     </div>
+                 </div>
+                 <div class="communication">
+                     <div class="com-icon"><img class="mail" src="/Img/mail.png" alt="address"></div>
+                     <div class="com-text">
+                         <p class="name-text">Зв'язок з нами:</p>
+                         <a class="inform-text" href="#">astrodom@gmail.com</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="communication_content_middle">
+                 <p class="sub-text">Введіть свій e-mail <br> та залиши нам свій відгук</p>
+                 <form class="subscribe" action="mailto:astrodom.official.ua@gmail.com" method="post" enctype="text/plain" type="subscribe">
+                     <input id="mail-input" class="mail-input" type="text" placeholder="Email address" name="mail" required>
+                     <input id="btn-sub" class="btn-sub" type="submit" value="Залишити">
+                 </form>
+             </div>
+             <div class="communication_content_bottom">
+                 <p>Astrodom</p>
+                 <p>© 2022. Privacy Policy</p>
+             </div>
+         </div>
+ </footer>
